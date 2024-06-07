@@ -1,6 +1,8 @@
 package com.codedotorg;
 
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -35,19 +37,15 @@ public class PetSelectionScene extends PetApp {
     /**
      * Sets petName to the name entered by the user
      */
-    public void setPetName() {
-
-        
-
+    public void setPetName(String petName) {
+        this.petName = petName;
+    
     }
-
     /**
      * Sets petType to the type of pet chosen by the user
      */
-    public void setPetType() {
-
-
-
+    public void setPetType(String petType) {
+        this.petType = petType;
     }
 
     /**
@@ -56,9 +54,7 @@ public class PetSelectionScene extends PetApp {
      * @return the VBox layout for the PetSelection scene
      */
     public VBox createPetSelectionLayout() {
-
-
-        return null;
+        return null; 
     }
 
     /**
