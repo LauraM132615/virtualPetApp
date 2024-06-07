@@ -12,8 +12,8 @@ public class App extends Application {
         PetApp virtualPet = new PetApp(primaryStage, 500, 500);
         virtualPet.startApp("Fido", "Dog");
 
-        // PetSelectionScene petSelectionScene = new PetSelectionScene(primaryStage);
-        // petSelectionScene.startApp();
+        PetSelectionScene petSelectionScene = new PetSelectionScene(primaryStage, 0, 0);
+        petSelectionScene.startApp();
     }
 
 }
